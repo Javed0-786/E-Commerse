@@ -70,7 +70,7 @@ p {
 
 .btn {
     display: inline-block;
-    background: #ff532b;
+    background: #0764e7;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -79,11 +79,11 @@ p {
 }
 
 .btn:hover {
-    background-color: #563434;
+    background-color: #081c32;
 }
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6);
+    background: radial-gradient(rgb(165, 157, 157), #d6f7ff);
 }
 
 .header .row {
