@@ -400,7 +400,8 @@ input:focus {
 }
 
 
-< !------ cart items details ------------->.cart-page {
+/* ----------- cart items details ------------- */
+.cart-page {
     margin: 80px auto;
 }
 
@@ -547,6 +548,7 @@ form a {
     padding: 50px 0;
 
 }
+
 .form-container {
     background: #fff;
     width: 300px;
@@ -558,6 +560,7 @@ form a {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
 .form-container span {
     font-weight: bold;
     padding: 0 10px;
