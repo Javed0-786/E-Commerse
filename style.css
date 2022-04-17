@@ -466,7 +466,6 @@ th:last-child {
 
 .account-page {
     padding: 50px 0;
-    background: radial-gradient(rgb(165, 157, 157), #d6f7ff);
 }
 
 .form-container {
@@ -546,7 +545,7 @@ form a {
 /*----------contact-page--------*/
 .contact-page {
     padding: 50px 0;
-    background: radial-gradient(rgb(165, 157, 157), #d6f7ff);
+
 }
 
 

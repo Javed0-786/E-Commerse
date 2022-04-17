@@ -14,59 +14,62 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="images/logo.png" width="125px">
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Product</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="ContactPage.html">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
-            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-
-            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
-        </div>
-    </div>
-
-    <!------- account-page ------>
-
-    <div class="account-page">
+    <div class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/image1.png" width="100%">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
                 </div>
-                <div class="col-2">
-                    <div class="form-container">
-                        <div class="form-btn">
-                            <span onclick="Login()">Login</span>
-                            <span onclick="Register()">Register</span>
-                            <hr id="Indicator">
-                        </div>
-                        <form id="LoginForm">
-                            <input type="text" placeholder="Username">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Login</button>
-                            <a href="">Forgot Password</a>
-                        </form>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="ContactPage.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
 
-                        <form id="RegForm">
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Register</button>
-                        </form>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+        <!------- account-page ------>
+
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/image1.png" width="100%">
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="Login()">Login</span>
+                                <span onclick="Register()">Register</span>
+                                <hr id="Indicator">
+                            </div>
+                            <form id="LoginForm">
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forgot Password</a>
+                            </form>
+
+                            <form id="RegForm">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn">Register</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- ------------footer----------- -->
     <div class="footer">
