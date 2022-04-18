@@ -585,6 +585,7 @@ form input {
     margin: 10px 0;
     padding: 0 10px;
     border: 1px solid #ccc;
+    font-size: medium;
 }
 
 #SocialMediaForm {
@@ -600,7 +601,7 @@ form input {
 #Indicator {
     width: 100px;
     border: none;
-    background: #ff523b;
+    background: #4416cd;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
