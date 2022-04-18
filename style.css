@@ -479,6 +479,7 @@ th:last-child {
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+
 }
 
 .form-container span {
@@ -634,6 +635,11 @@ form input {
     .menu-icon {
         display: block;
         cursor: pointer;
+    }
+
+    .contact-page {
+        display: block;
+        padding: 150px 0;
     }
 }
 
