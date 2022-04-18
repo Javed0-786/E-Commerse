@@ -29,7 +29,7 @@
                         <li><a href="account.html">Account</a></li>
                     </ul>
                 </nav>
-               <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
                 <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
         </div>
@@ -39,27 +39,34 @@
         <!------Contact Page------>
 
         <div class="contact-page">
-                <div class="container">
-                   
-                            <div class="form-container">
-                                <div class="form-btn">
-                                    <span onclick="SocialMedia()">Social Media</span>
-                                    <span onclick="Address()">Address   </span>
-                                    <hr id="Indicator">
-                                </div>
-                                <form id="SocialMediaForm">
-                                   <br> <strong><p> Email: eMALL123@gmail.com</p></strong><br><br>
-                                    <strong><p> Instagram: eMALL_123</p></strong><br><br>
-                                    <strong><P> Facebook: eMALL Enterprise</P></strong>
-                                </form>
-    
-                                <form id="AddressForm">
-                                   <br><br><br> <strong><p>1600 Pennsylvania Ave., NW Washington, DC 20500.</p></strong>
-                                </form>
-                            </div>
-                        </div>
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="SocialMedia()">Social Media</span>
+                        <span onclick="Address()">Address </span>
+                        <hr id="Indicator">
                     </div>
-                
+                    <form id="SocialMediaForm">
+                        <br> <strong>
+                            <p> Email: eMALL123@gmail.com</p>
+                        </strong><br><br>
+                        <strong>
+                            <p> Instagram: eMALL_123</p>
+                        </strong><br><br>
+                        <strong>
+                            <P> Facebook: eMALL Enterprise</P>
+                        </strong>
+                    </form>
+                    <form id="AddressForm">
+                        <br><br><br> <strong>
+                            <p>1600 Pennsylvania Ave., NW Washington, DC 20500.</p>
+                        </strong>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- ------------footer----------- -->
@@ -117,25 +124,6 @@
         }
     </script>
 
-    <!-- ----------js for product gallery ------- -->
-
-    <script>
-        var ProductImg = document.getElementById("ProductImg");
-        var SmallImg = document.getElementsByClassName("small-img");
-        SmallImg[0].onclick = function () {
-            ProductImg.src = SmallImg[0].src;
-        }
-        SmallImg[1].onclick = function () {
-            ProductImg.src = SmallImg[1].src;
-        }
-        SmallImg[2].onclick = function () {
-            ProductImg.src = SmallImg[2].src;
-        }
-        SmallImg[3].onclick = function () {
-            ProductImg.src = SmallImg[3].src;
-        }
-    </script>
-
     <!-----js for toggle form------>
     <script>
 
@@ -156,6 +144,8 @@
             Indicator.style.transform = "translateX(0px)"
         }
     </script>
+
+
 </body>
 
 </html>
